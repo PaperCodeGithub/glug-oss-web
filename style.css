@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f8fa;
+  padding: 40px;
+}
+
+.card {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #ffe9a8;
+  /*
+    SOLUTION (Issue 2: heading is too light to read)
+    Problem:  #ffe9a8 is pale yellow, almost invisible on a white card.
+    Fix:      color: #0b3d2e;
+    Why:      A dark colour on a light background has strong contrast,
+              so the text is easy to read.
+  */
+}
+
+.button {
+  display: inline-block;
+  background-color: #d73a4a;
+  /*
+    SOLUTION (Issue 3: button should be green, not red)
+    Problem:  #d73a4a is red, but the button should be green.
+    Fix:      background-color: #2ea44f;
+    Why:      background-color controls the fill colour of the button.
+              Changing the hex code changes the colour.
+  */
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
