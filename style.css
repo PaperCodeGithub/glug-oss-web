@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  color: #0b3d2e;
+  color: #060606;
   /*
     SOLUTION (Issue 2: heading is too light to read)
     Problem:  #ffe9a8 is pale yellow, almost invisible on a white card.
